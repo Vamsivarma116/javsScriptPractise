@@ -4,6 +4,8 @@ let accountEmail = "vamsi@gmail.com"
 
 var accountPassword = "123456789"
 
+let accountState;
+
 /*
   prefer Not to use VAR because of issues in blockscope and functional scope
 */
@@ -24,9 +26,9 @@ if(true){
     let accountEmail = "vamsi33@gmail.com"// value is not changing in the outer scope.  
 }
 
-console.log(accountId,accountEmail,accountPassword,accountCity);
+console.log(accountId,accountEmail,accountPassword,accountCity,accountState);
 // or 
-console.table([accountId,accountEmail,accountPassword,accountCity])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
 
 
 
