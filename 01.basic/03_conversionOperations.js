@@ -87,15 +87,74 @@
 //let someNumber = "vamsi" // CASE 6 Output: "vamsi" string as a string
 
 
-console.log(typeof someNumber);
+// console.log(typeof someNumber);
 
-let stringNumber = String(someNumber)
+// let stringNumber = String(someNumber)
 
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
 
-console.log(stringNumber); //----> Here the type is converted and the values also same only in this case.
-             //EveryThing is converted Into string
+// console.log(stringNumber); //----> Here the type is converted and the values also same only in this case.
+//              //EveryThing is converted Into string
 
+
+/*======================================================================================== */
+//                                    Operations             
+/*======================================================================================== */
+
+let value = 3
+
+let negValue = -value
+
+// console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/2)
+// console.log(2%2)
+
+let str1 = "Hello"
+
+let str2 = " vamsi"
+
+let str3 = str1 + str2
+
+//console.log(str3) // --> one way of string concatination
+
+//Here the problem Occures
+
+//console.log("1"+2);
+
+//console.log(1+"2");
+
+//Here comes the tricky case
+
+//console.log("1"+2+2); //--> Output: 122
+
+//console.log(1+2+"2"); //--> Output: 32 Because first(1+2) is evaluated then (3 + "2") is evaluated and we got 32.
+
+//Read documentation to know indetailed Reason.
+
+//Another case
+
+//console.log(true);
+
+//console.log(+true); // here this is another way of type converting into number
+
+//console.log(+""); // here this is another way of type converting into number
+
+//console.log(true+); ---> Here we are going to get error.
+
+//INCREMENT OPERATOR.
+
+let gameCounter = 100
+
+//gameCounter++;
+
+++gameCounter;
+
+console.log(gameCounter);
 
 
 
