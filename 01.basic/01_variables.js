@@ -30,5 +30,14 @@ console.log(accountId,accountEmail,accountPassword,accountCity,accountState);
 // or 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
 
-console.log("Hello")
+let x = "1.54",y = 4
+
+console.log(x/y)
+console.log(typeof(x/y))
+console.log(x*y)
+console.log(typeof(x*y))
+console.log(x%y)
+console.log(typeof(x%y))
+console.log(x-y)
+console.log(typeof(x/y))
 
